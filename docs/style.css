@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-ExtraLight.ttf') format('ttf');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+html,body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.background-img {
+    background-image: url(img/Polygon_1.png);
+    background-position: -8% 2%; 
+    background-repeat: no-repeat;
+}
+
+.background-img-3 {
+    background-image: url(img/Polygon_5.png);
+    background-position: -10% 99%;
+    background-repeat: no-repeat;
+}
+
+.background-img-2 {
+    background-image: url(img/Polygon_2.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 5px;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 32px solid #9C9D9F;
+}
+
+
+.container {
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-logo-img img {
+    margin-top: 10px;
+    width: 380px;
+    height: 90px;
+    
+}
+
+.header-nav-list-link {
+    margin-right: 80px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-nav-list-link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black; 
+    transition: width 0.5s; 
+}
+
+.header-nav-list-link:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; 
+    background-color: red; 
+    transition: width 0.5s; 
+}
+
+
+.header-nav-list-finder img {
+    align-items: center;
+    width: 30px;
+    height: 20px;
+}
+
+.mission-company-dscrp {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.mission-logo-company {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.three-logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.logo-set {
+    margin-right: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.innovation-section {
+    padding-top: 80px;
+}
+
+.innovation-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.innovation-dscrpt {
+    margin-top: 85px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.advantages-cards-five {
+    padding-top: 50px;
+}
+
+.advantages-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.advantages-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 30px 30px;
+    border-radius: 40px;
+}
+
+.advantages-card-dscrpt {
+    position: absolute;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 400px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.advantages-card-dscrpt a {
+    color: white;
+}
+
+.advantages-card-dscrpt a:hover {
+    color:#000000;
+
+}
+
+.advantages-card-img {
+    width: 480px;
+    height: 380px;
+    border-radius: 40px;
+}
+
+.advantages-card-img:hover {
+    box-shadow: 10px 5px 60px grey;
+    transform: translate(5px, 5px);
+    transition: 0,9s;
+    transform: scale(1.2);
+}
+
+.application-area {
+    padding-top: 40px;
+}
+
+.application-title {
+    margin-top: 85px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.application-dscrpt {
+    margin-top: 85px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.application-cards-four {
+    padding-top: 40px;
+}
+
+.application-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.application-card-list {
+    line-height: 25px;
+}
+
+.application-card {
+    cursor: pointer;
+}
+
+
+.application-card-set:hover {
+    box-shadow: 10px 5px 5p;
+    transform: translate(35px,0);
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.application-card-set {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 92px;
+    margin-right: 55px;
+    padding: 26px 28px;
+    border: 1px solid #000000;
+    border-radius: 20px; 
+}
+
+.application-card-img {
+    width: 100px;
+    height: 100px;
+}
+
+.application-card:hover {
+    box-shadow: 10px 5px 5p;
+    transform: translate(0,35px);
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+li .application-card {
+    padding-top: 10px;
+}
+
+.experience-catalog-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.experience-left-section {
+    width: 980px;
+}
+
+.experience-second-block-dscrpt{
+    padding-top: 50px;
+}
+
+.experience-left-section-dscrpt {
+    line-height: 1.5;
+}
+
+.catalog-right-section {
+    width: 500px;
+    border: 2px solid #9C9D9F;
+}
+
+.contact {
+    margin-top: 200px;
+    margin-left: 650px;
+    width: 350px;
+}
+
+.form {
+    margin-top: 60px;
+}
+
+.form-input {
+    width: 100%;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    padding-left: 21px;
+    margin-bottom: 23px;
+}
+
+.form-textarea {
+    padding-top: 20px;
+    height: 200px;
+    resize: none;
+}
+
+.form-button {
+    width: 208px;
+    height: 47px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    color: rgb(0, 0, 0);
+}
+
+.form-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(37, 37, 37, 0.425), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-top: 1px solid #000000;
+}
+
+
+.left-section {
+    width: 700px;
+    height: 125px;
+    text-align: center; 
+}
+
+.right-section {
+    width: 700px;
+    height: 125px;
+}
+
+.footer-social-icon {
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    background-position: center center;
+}
+
+.footer-icon-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-social-icon-FB {
+    width: 80px;
+    height: 50px;
+    background-image: url(img/facebook\ 1.png);
+}
+
+.footer-social-icon-YT {
+    width: 80px;
+    height: 50px;
+    background-image: url(img/youtube\ 1.png);
+}
+
+.footer-social-icon-INS {
+    width: 80px;
+    height: 50px;
+    background-image: url(img/instagram\ 1.png);
+}
