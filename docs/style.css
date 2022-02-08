@@ -76,13 +76,12 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    height: 140px;
-    padding-top: 40px;
+    height: 168px;
+    padding-top: 55px;
     padding-left: 80px;
-    padding-right: 80px;
-    border-bottom: 32px solid #9C9D9F;
+    padding-right: 83px;
+    border-bottom: 45px solid #9C9D9F;
 }
-
 
 .container {
     max-width: 1650px;
@@ -95,10 +94,9 @@ ul {
 }
 
 .header-logo-img img {
-    margin-top: 10px;
-    width: 380px;
-    height: 90px;
-    
+    margin-top: 2px;
+    width: 382px;
+    height: 110px;
 }
 
 .header-nav-list-link {
@@ -134,7 +132,6 @@ ul {
     background-color: red; 
     transition: width 0.5s; 
 }
-
 
 .header-nav-list-finder img {
     align-items: center;
@@ -199,8 +196,8 @@ ul {
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding: 30px 30px;
-    border-radius: 40px;
+    padding: 28px 95px;
+    border-radius: 226px;
 }
 
 .advantages-card-dscrpt {
@@ -222,16 +219,39 @@ ul {
 }
 
 .advantages-card-img {
-    width: 480px;
+    width: 412px;
     height: 380px;
     border-radius: 40px;
 }
 
 .advantages-card-img:hover {
-    box-shadow: 10px 5px 60px grey;
     transform: translate(5px, 5px);
     transition: 0,9s;
     transform: scale(1.2);
+}
+
+.advantages-card-fit:hover {
+    -webkit-box-shadow: 0px 0px 100px 18px rgba(236, 182, 66, 1); 
+    -moz-box-shadow: 0px 0px 100px 18px rgba(236, 182, 66, 1); 
+    box-shadow: 0px 0px 100px 18px rgba(236, 182, 66, 1);
+}
+
+.advantages-card-spine:hover {
+    -webkit-box-shadow: 0px 0px 100px 23px rgba(164, 212, 208, 1); 
+    -moz-box-shadow: 0px 0px 100px 23px rgba(164, 212, 208, 1); 
+    box-shadow: 0px 0px 100px 23px rgba(164, 212, 208, 1);
+}
+
+.advantages-card-med:hover {
+    -webkit-box-shadow: 0px 0px 100px 18px rgba(21, 155, 194, 1); 
+    -moz-box-shadow: 0px 0px 100px 18px rgba(21, 155, 194, 1); 
+    box-shadow: 0px 0px 100px 18px rgba(21, 155, 194, 1);
+}
+
+.advantages-card-idiag:hover {
+    -webkit-box-shadow: 0px 0px 100px 18px rgba(233, 125, 116, 1); 
+    -moz-box-shadow: 0px 0px 100px 18px rgba(233, 125, 116, 1); 
+    box-shadow: 0px 0px 100px 18px rgba(233, 125, 116, 1);
 }
 
 .application-area {
@@ -278,6 +298,9 @@ ul {
     transform: translate(35px,0);
     transition: 1s;
     transform: scale(1.2);
+    -webkit-box-shadow: 1px 2px 87px 70px rgba(66, 173, 255, 0.5); 
+    -moz-box-shadow: 1px 2px 87px 70px rgba(66, 173, 255, 0.5); 
+    box-shadow: 1px 2px 87px 70px rgba(66, 173, 255, 0.5);
 }
 
 .application-card-set {
@@ -375,7 +398,7 @@ li .application-card {
     justify-content: space-between;
     margin-top: 150px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     border-top: 1px solid #000000;
 }
 
