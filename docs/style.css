@@ -351,7 +351,17 @@ li .application-card {
 
 .catalog-right-section {
     width: 500px;
-    border: 2px solid #9C9D9F;
+    height: 500px;
+    background-image: url(img/DEVICES-360.png);
+    background-repeat: no-repeat;
+}
+
+.catalog-download {
+    width: 500px;
+    height: 500px;
+    background-image: url(img/DEVICES-360.png);
+    background-repeat: no-repeat;
+    
 }
 
 .contact {
@@ -407,6 +417,15 @@ li .application-card {
     width: 700px;
     height: 125px;
     text-align: center; 
+}
+
+.footer-email {
+    margin-left: 15px;
+    color:#000000;
+}
+
+.footer-phone {
+    color:#000000;
 }
 
 .right-section {
