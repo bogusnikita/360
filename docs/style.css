@@ -93,11 +93,18 @@ ul {
     display: flex;
 }
 
-.header-logo-img img {
+.header-logo-main-img img {
     margin-top: 2px;
-    width: 382px;
+    width: 380px;
     height: 110px;
 }
+
+.header-logo-fit-img img {
+    margin-top: 3px;
+    width: 130px;
+    height: 110px;
+}
+
 
 .header-nav-list-link {
     margin-right: 80px;
@@ -161,6 +168,75 @@ ul {
     margin-right: 50px;
     width: 150px;
     height: 50px;
+}
+
+.fit-dscrpt-section {
+    margin: 0 auto;
+    background-image: url(img/fit_background.png);
+    background-repeat: no-repeat;
+    width: 1615px;
+    height: 1122px;
+}
+
+.fit-dscrpt-title {
+    padding-top: 150px;
+    text-align: center; 
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.fit-dscrpt-block1 {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 750px;
+    line-height: 30px;
+    color:#FFFFFF;
+}
+
+.fit-dscrpt-block2 {
+    padding-top: 70px;
+    padding-left: 50px;
+    line-height: 30px;
+}
+
+.fit-dscrpt-block3 {
+    padding-top: 70px;
+    padding-left: 50px;
+    line-height: 30px;
+}
+
+.fit-border {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+
+.mobee-fit-title {
+    margin-top: 100px;
+    text-align: center; 
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.mobee-fit-dscrpt-left {
+    border: 1px solid black;
+}
+
+
+
+.mobee-fit-dscrpt-right {
+    border: 1px solid black;
+}
+
+.fit-profile {
+    border: 1px solid black;
+}
+
+.fit-profile-card {
+    width: 325px;
+    height: 190px;
+    border: 1px solid red;
 }
 
 .innovation-section {
@@ -354,6 +430,10 @@ li .application-card {
     height: 500px;
     background-image: url(img/DEVICES-360.png);
     background-repeat: no-repeat;
+}
+
+.catalog-section-fit {
+    margin: 0 auto;
 }
 
 .catalog-download {
